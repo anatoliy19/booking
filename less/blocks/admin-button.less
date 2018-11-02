@@ -1,0 +1,45 @@
+.admin-button-wrapper{	
+	top: 104px;
+	position: absolute;
+	display: block;
+	right: 0;
+	width: 200px;
+	height: 51px;
+	overflow: hidden;	
+}
+.admin-button{
+	// display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: -143px;
+	display: flex;
+	align-items: center;
+	height: 51px;
+	border-radius: 26px;
+	background-color: #f5585c;
+	padding: 0 30px 0 20px;
+	
+	transition: 0.8s ease-in;
+	
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1;
+	text-decoration: none;
+	
+	&:hover{
+		right: -20px;
+		text-decoration: none;
+		background-color: #df373b;
+	}
+
+ &:active{ 
+ 	outline: none;
+ 	background-color: #eb353a;
+ }
+}
+.admin-button__icon{
+	margin-right: 10px;
+	width: 16px;
+	height: 18px;
+}
